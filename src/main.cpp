@@ -44,7 +44,7 @@ void loop() {
     axisServo.write(90);
     delay(1000);
 
-    // Move to 180 degree
+    // Move to 180 degrees
     Serial.println("Moving to 180°");
     axisServo.write(180);
     delay(1000);
